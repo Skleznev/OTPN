@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal.cs" />
+    <Compile Include="Animal_Interface.cs" />
+    <Compile Include="Big_Cell.cs" />
+    <Compile Include="Cell.cs" />
+    <Compile Include="Herbivores.cs" />
+    <Compile Include="Medium_Cell.cs" />
+    <Compile Include="Omnivores.cs" />
+    <Compile Include="Predator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Small_Cell.cs" />
+    <Compile Include="Zoo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

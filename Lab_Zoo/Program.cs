@@ -10,6 +10,21 @@ namespace Lab_Zoo
     {
         static void Main(string[] args)
         {
+            Zoo zoo = new Zoo();
+
+            zoo.
+
+            while (true)
+            {
+                string command = Console.ReadLine();
+
+                switch (command){
+                    case "free":
+                        zoo.getAnimalWithoutCase();
+                        break;
+                                            
+                }
+            }
         }
     }
 }
